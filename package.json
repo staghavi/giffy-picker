@@ -1,0 +1,20 @@
+{
+  "name": "giffy-picker-server",
+  "version": "1.0.0",
+  "description": "Server for Giffy Picker.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "Sam Zadeh",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^6.5.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "sqlite": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
